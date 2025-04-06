@@ -9,5 +9,3 @@ def is_positive(number)
 test_number = -5
 output = is_positive(test_number)
 print("Is the number positive?", output)
-
-Changes
