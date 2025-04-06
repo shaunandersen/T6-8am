@@ -1,11 +1,10 @@
-# This script defines a function to check if a number is positive.
-def is_positive(number)
-    if number > 0:
-        return True
-    else:
-    return False
+# This script defines a function to calculate the area of a rectangle.
+def calculate_area(length, width):
+    area = lenght * width
+    return area
 
 # Testing
-test_number = -5
-output = is_positive(test_number)
-print("Is the number positive?", output)
+output = calculate_area(5, 10)
+print("The calculated area is:" output)
+
+
