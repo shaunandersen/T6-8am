@@ -3,7 +3,7 @@
 def count_low(item_list):
     count = 0
     for item in item_list:
-        if item_list < 10:
+        if item < 10:
             count += 1
     return count
 
