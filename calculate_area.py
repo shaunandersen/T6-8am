@@ -1,4 +1,4 @@
-# This script defines a function to calculate the area of a rectangle.
+# This script defines a function to calculate the area of a rectangle. 
 def calculate_area(length, width):
     area = length * width
     return area
